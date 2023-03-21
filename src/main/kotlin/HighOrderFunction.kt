@@ -6,4 +6,7 @@ fun main() {
 
     println(sayThanks("ahmad ganteng", upperTransformer))
     println(sayThanks("AHMAD GANTENG", { value: String -> value.toLowerCase() }))
+
+//  Trailing lambda
+    println(sayThanks("Aku Ganteng") { value: String -> value.toUpperCase() })
 }

@@ -9,7 +9,7 @@ fun main() {
 
     val lambdaRefTes: (String) -> String = ::toLower
 
-    println(lambdaRef("yanTo"))
-    println(lambdaRefTwoArgs("Narto", 20))
-    println(lambdaRefTes("kEcIl SemUA"))
+    println(lambdaRef("ahmad"))
+    println(lambdaRefTwoArgs("Ahmad", 20))
+    println(lambdaRefTes("KECIL SEMUA"))
 }
